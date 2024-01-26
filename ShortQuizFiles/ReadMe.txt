@@ -1,0 +1,1 @@
+Short little quiz with 6 questions.
