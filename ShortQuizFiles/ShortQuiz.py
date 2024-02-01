@@ -1,9 +1,9 @@
-from ShortQuizModuals import (questions,
+from ShortQuizModules import (questions,
                               user_answer,
                               check,
                               percent,
                               letterGrade
-)
+                              )
 
 questionsNanswers = ["What is highschool did Sumit first attend?",
                      "What was Sumit's best mile time?",
