@@ -46,4 +46,4 @@ totalScore = check(user_answers,answers)
 per = percent(totalScore,answers)
 grade = letterGrade(per)
 print(f"You got {totalScore} of {len(answers)}."
-      f"\n You got {per:.2f}% which is a{grade}.")
+      f"\nYou scored {per:.2f}% which is a{grade}.")

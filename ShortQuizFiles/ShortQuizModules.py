@@ -1,4 +1,4 @@
-def questions(n1,l1,l2):
+def questions(n1, l1, l2):
     print(l1[n1])
     print(l2[n1])
     n1 += 1
@@ -7,7 +7,7 @@ def questions(n1,l1,l2):
 
 def user_answer(user_answers,qNumber):
     valid_input = False
-    possible_inputs = ["A","B","C","D"]
+    possible_inputs = ["A", "B", "C", "D"]
     while not valid_input:
         choice = input("Which of the following would you like to select?: ").upper()
         if choice in possible_inputs:
@@ -23,9 +23,8 @@ def check(user_answers,answers):
             totalScore += 1
     return totalScore
 
-def percent(total_Score,answers):
+def percent(total_Score, answers):
     per = total_Score/len(answers)*100
-    print(f"{per:.2f}%")
     return per
 
 def letterGrade(per):
